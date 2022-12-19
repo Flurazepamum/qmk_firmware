@@ -1,0 +1,31 @@
+{
+  "keyboard_name": "rgboled1",
+  "url": "https://github.com/flurazepamum",
+  "maintainer": "flura",
+  "processor": "RP2040",
+  "bootloader": "rp2040",
+  "build": {
+    "lto": true
+  },
+  "features": {
+    "bootmagic": true,
+    "console": true,
+    "nkro": true
+  },
+  "usb": {
+    "vid": "0x5399",
+    "pid": "0x2040",
+    "device_version": "0.0.1"
+  },
+  "matrix_pins": {
+    "cols": ["GP4"],
+    "rows": ["GP5"]
+},
+  "layouts": {
+    "LAYOUT_all": {
+        "layout": [
+          {"label":"a", "x":0, "y":0}
+      ]
+    }
+  }
+}
